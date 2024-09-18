@@ -1,11 +1,12 @@
-The Multiple_year_stock_data excel has ticker, quaterly change(closing price - opening price), percent change(closing price- opening price)/opening price of each stock.
-Stock with the greatest price increase
-Stock with the greatest price with greatest decrease
-and the stock with the greatest volume 
-first defined the variables for the code, then indicating which column has the opening price and closing price, then calculating the quaterly change and percent change.
-creating a loop(conditional) in the case the percent change is less or more zero 
+The Multiple_year_stock_data excel shows the quaterly change and percent change(increase or decrease) of each stock. And which stock had the greatest percentage increase or decrease and the greatest volume. 
+
+The first step is to define the variables 
+Second Step to indicate which columns/rows have the opening price and closing price
+Third: calculate the quaterly change and percent change(between the opening price and closing price)
+Fourth: Creating a loop(conditional) in the case the percent change is less or more zero
 *following the same pathway for the alphabetical_testing 
 Please find below the comments with the script:
+
 
 Sub AnalyzeStocks()
 The following are the variables:
